@@ -1,0 +1,30 @@
+{
+    "name": "ArduinoBuzzer",
+    "version": "1.0.0",
+    "description": "Simple buzzer that can play notes sequence without main thread time blocking",
+    "keywords": "buzzer, note",
+    "repository":
+    {
+      "type": "git",
+      "url": "https://github.com/vovagorodok/ArduinoBuzzer"
+    },
+    "authors":
+    [
+      {
+        "name": "vovagorodok",
+        "email": "vovagorodok2@gmail.com",
+        "url": "https://github.com/vovagorodok",
+        "maintainer": true
+      },
+      {
+        "name": "dkwach",
+        "email": "dawid.kwach@gmail.com",
+        "url": "https://github.com/dkwach"
+      }
+    ],
+    "license": "MIT",
+    "homepage": "https://github.com/vovagorodok/ArduinoBuzzer",
+    "headers": ["ArduinoBuzzer.h"],
+    "frameworks": "arduino",
+    "platforms": ["*"]
+  }

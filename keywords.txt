@@ -1,0 +1,11 @@
+# Datatypes (KEYWORD1)
+Buzzer KEYWORD1
+
+# Methods and Functions (KEYWORD2)
+begin KEYWORD2
+pull  KEYWORD2
+play  KEYWORD2
+
+# Instances (KEYWORD2)
+
+# Constants (LITERAL1)
