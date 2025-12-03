@@ -5,6 +5,8 @@ Buzzer KEYWORD1
 begin KEYWORD2
 pull  KEYWORD2
 play  KEYWORD2
+stop  KEYWORD2
+isPlaying KEYWORD2
 
 # Instances (KEYWORD2)
 
