@@ -6,6 +6,7 @@ class Buzzer
 {
 public:
   Buzzer(uint8_t num);
+  Buzzer(uint8_t num, bool activeState);
 
   void begin();
   void pull();
@@ -22,6 +23,7 @@ public:
 
 private:
   const uint8_t num;
+  const bool inactiveState;
   const Note* notes;
   size_t size;
   size_t pos;

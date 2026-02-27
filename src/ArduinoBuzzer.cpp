@@ -1,7 +1,12 @@
 #include "ArduinoBuzzer.h"
 
 Buzzer::Buzzer(uint8_t num) :
+  Buzzer(num, HIGH)
+{}
+
+Buzzer::Buzzer(uint8_t num, bool activeState) :
   num(num),
+  inactiveState(!activeState),
   notes(&dummy),
   size(),
   pos(),
@@ -11,6 +16,7 @@ Buzzer::Buzzer(uint8_t num) :
 
 void Buzzer::begin() {
   pinMode(num, OUTPUT);
+  digitalWrite(num, inactiveState);
 }
 
 void Buzzer::pull() {
@@ -48,6 +54,7 @@ void Buzzer::play(Note note) {
 
 void Buzzer::stop() {
   noTone(num);
+  digitalWrite(num, inactiveState);
   size = 0;
 }
 

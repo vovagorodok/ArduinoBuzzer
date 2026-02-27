@@ -1,6 +1,6 @@
 {
     "name": "ArduinoBuzzer",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Simple buzzer that can play notes sequence without main thread time blocking",
     "keywords": "buzzer, note",
     "repository":
