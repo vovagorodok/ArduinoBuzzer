@@ -2,8 +2,8 @@
 #include <Arduino.h>
 
 struct Note {
-  uint16_t frequency;
-  uint16_t duration;
+    uint16_t frequency;
+    uint16_t duration;
 };
 
 #define NOTE_SILENT 0
