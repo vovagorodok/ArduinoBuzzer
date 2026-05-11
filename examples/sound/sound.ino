@@ -32,6 +32,12 @@ const Note SOUND_REDROP[]{
     {NOTE_B4, 50},
     {NOTE_F3, 50}
 };
+const Note SOUND_SYNC[]{
+    {NOTE_B4, 150}
+};
+const Note SOUND_UNSYNC[]{
+    {NOTE_F2, 150}
+};
 
 #define BUZZER 1
 Buzzer buzzer(BUZZER);
@@ -69,6 +75,12 @@ void loop() {
                 break;
             case 5:
                 buzzer.play(SOUND_REDROP);
+                break;
+            case 6:
+                buzzer.play(SOUND_SYNC);
+                break;
+            case 7:
+                buzzer.play(SOUND_UNSYNC);
                 break;
             default:
                 break;
